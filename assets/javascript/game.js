@@ -31,7 +31,7 @@ document.onkeyup = function(event) {
     var userChoice = String.fromCharCode(event.keyCode).toLowerCase();
 
 
-    if (guessesLeft > 0) {
+    if (guessesLeft > 1) {
 
         if (userChoice == computerLetter) {
             wins = wins + 1;
